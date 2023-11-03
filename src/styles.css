@@ -1,2 +1,18 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 @import "~animate.css/animate.min";
+
+:root {
+  --primary-blue: #0a408d;
+  --secondary-blue: #092e65;
+  --global-margin-top: 120px;
+  --global-margin-bottom: calc(var(--global-margin-top) - 80px);
+  --primary-transition-time: 0.2s;
+  --primary-icon-size: 26px;
+}
+.main-shadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.component-container {
+  min-height: 100vh;
+  height: auto;
+}

@@ -1,0 +1,34 @@
+<div class="component-container animate__animated animate__fadeIn">
+  <div
+    class="cars-table-front-image main-shadow animate__animated animate__fadeInRight"
+  >
+    <img src="../../assets/mainImage.png" alt="TuSegundazo" />
+  </div>
+  <br />
+  <hr />
+  <div class="cars-table-container animate__animated animate__fadeInLeft">
+    <table class="table table-hover cars-table">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Marca</th>
+          <th scope="col">Línea</th>
+          <th scope="col">Modelo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let car of cars; let i = index">
+          <th scope="row">{{ i }}</th>
+          <td>{{ car.marca }}</td>
+          <td>{{ car.linea }}</td>
+          <td>{{ car.modelo }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="cars-table-counter">
+      <div *ngFor="let brand of brands">
+        <h6>Total {{ brand }}: {{ carCount[brand] }}</h6>
+      </div>
+    </div>
+  </div>
+</div>

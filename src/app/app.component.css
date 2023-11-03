@@ -1,0 +1,24 @@
+/*Navbar*/
+.global-margin-top {
+  margin-top: var(--global-margin-top);
+}
+.global-margin-bottom {
+  margin-top: var(--global-margin-bottom);
+}
+.navbar-container {
+  padding: 20px;
+}
+.navbar-title-container {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-title-text {
+  margin: 0px;
+  text-shadow: 0px 3px 6px black;
+}
+.navbar-title-icon {
+  margin-right: 5px;
+  font-size: 2rem;
+}

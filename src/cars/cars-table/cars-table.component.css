@@ -1,0 +1,37 @@
+.cars-table-front-image {
+  margin: 0;
+  display: flex;
+  justify-content: center !important;
+}
+.cars-table-front-image > img {
+  width: 100%;
+  justify-self: center;
+  object-fit: cover;
+  height: 40vh;
+}
+.cars-table-container {
+  display: flex;
+  align-items: flex-start !important;
+  flex-flow: column;
+  height: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.cars-table {
+  width: 50vw;
+}
+.cars-table-counter {
+  display: flex;
+  justify-content: center !important;
+  flex-flow: column;
+}
+@media (max-width: 600px) {
+  .cars-table {
+    width: 90vw;
+  }
+  .cars-table-container {
+    align-items: center !important;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
