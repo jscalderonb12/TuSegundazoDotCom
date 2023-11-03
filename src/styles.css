@@ -6,7 +6,6 @@
   --secondary-blue: #092e65;
   --global-margin-top: 120px;
   --global-margin-bottom: calc(var(--global-margin-top) - 80px);
-  --primary-transition-time: 0.2s;
   --primary-icon-size: 26px;
 }
 .main-shadow {
